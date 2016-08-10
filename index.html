@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <title>
+    JS Drills
+  </title>
+</header>
+<div id="sum-number">
+  <h1 class="title">
+    'Sum Two Numbers'
+  </h1>
+  <div id="border">
+    <h3 id="output" class="answer border"></h3>
+      <div class="row">
+        <input id="val" class="col s4 offset-s4 input" type="number"/>
+        <div class="row">
+          <div class="col s4 offset-s5">
+            <button id="plus" onClick="addFunction()">
+              +
+            </button>
+            <button id="minus" onClick="subtractFunction">
+              -
+            </button>
+          </div>
+        </div>
+        <input id="val2" class="col s4 offset-s4 input" type="number" />
+      </div>
+  </div>
+</div>
+
+<div id="sum-array">
+  <h1 class="title">
+    'Sum Array'
+  </h1>
+  <div id="border">
+    <h3 id="array_answer" class="border"></h3>
+      <div class="row">
+        <input id="userinput" class="col s4 offset-s4" type="text"/>
+        <input type="button" onClick="sumArray([1,2,3,4,5])" value="Add" />
+      </div>
+  </div>
+</div>
+
+<div id="fahrenheit-celsius">
+  <h1 class="title">
+    'Celsius - Fahrenheit'
+    'Converter'
+  </h1>
+  <div id="border">
+    <h3 id="celsius" class="border"></h3>
+      <div class="row">
+        <input id="fahrenheit" class="col s4 offset-s4" type="text"/>
+        <button onClick="makeCelsius()">
+          Convert
+        </button>
+      </div>
+  </div>
+</div>
+
+<div id="num-vowels">
+  <h1 class="title">
+    'Number of Vowels'
+  </h1>
+  <p class="title">
+  See Console (2nd number)
+  </p>
+  <div>
+    <h3 id="number" class="border"></h3>
+      <div class="row">
+        <input id="string" class="col s4 offset-s4" type="text"/>
+        <button  type="button" value="Add" onClick="vowel_count()"></button>
+      </div>
+  </div>
+</div>
+
+<div id="dice-function">
+  <h1 class="title">
+    'Dice Function'
+  </h1>
+  <div>
+      <div id="border" class="row">
+        <input id="string" class="col s4 offset-s4" type="text"/>
+        <button id="myBtn" onClick="rollDie()">
+          Click
+        </button>
+        <h3 id="die">.</h3>
+      </div>
+  </div>
+</div>
+
+
+</html>=
